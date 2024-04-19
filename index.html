@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Kamilimu Journey</title>
+  <meta name="title" content="AgriQ">
+  <meta name="description" content="Kamilimu">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/WebIcon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/slider-1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/slider-2.jpeg">
+  <link rel="preload" as="image" href="./assets/images/slider-3.jpeg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">My Kamilimu Journey</p>
+  </div>
+
+ <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <div class="separator"></div>
+
+      <a href="mailto:admin@agriqautomations.com" class="topbar-item link">
+
+        <span class="span">AVENGERS, ASSEMBLE!</span>
+      </a>
+
+      <div class="separator"></div>
+
+    
+    </div>
+  </div>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+  
+    
+  
+      <nav class="navbar" data-navbar>
+  
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+  
+  
+        <ul class="navbar-list">
+  
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">HOME</span>
+            </a>
+          </li>
+  
+          <li class="navbar-item dropdown">
+            <div class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <a href="#part1" class="dropbtn span">SESSION OVERVIEW</a>
+             
+            </div>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="#summary" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">SESSION SUMMARY</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#takeaways" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">KEY TAKEAWAYS</span>
+            </a>
+          </li>
+  
+        </ul>
+  
+        <!-- Rest of the code remains unchanged -->
+  
+      </nav>
+  
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+  
+      <div class="overlay" data-nav-toggler data-overlay></div>
+  
+    </div>
+  </header>
+  
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-3.webp" width="1880" height="950" alt="" class="img-cover img-opacity">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Cv Writing</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Master CV writing
+           
+            </h1>
+
+           
+            <a href="#part1" class="btn btn-primary slider-reveal">
+              <span class="text text-1">EXPLORE</span>
+
+              <span class="text text-2" aria-hidden="true">EXPLORE</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-2.webp" width="1880" height="950" alt="" class="img-cover img-opacity">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Innovations</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+             Innovate like Tony Stark <br>
+            
+            </h1>
+            
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slider-1.jpeg" width="1880" height="950" alt="" class="img-cover img-opacity">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">How to learn</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Make learning your <br> personal hero story
+            
+            </h1>
+
+           
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+       
+
+      </section>
+
+
+       <!-- 
+        - #Session Overview
+      -->
+
+      <section class="section features text-center" aria-label="features" id="part1">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Take a look</p>
+
+          <h2 class="headline-1 section-title">Session Overview</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/high-quality.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">CV Writing - Professional Development</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/affordable.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Intro to Innovations - Innovation</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/settings.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Innovations in real Life - Innovation</h3>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/intuitive.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">How to Learn: Part 1 - Personal Development</h3>
+
+
+              </div>
+            </li>
+
+          </ul>
+       
+        </div>
+      </section>
+
+
+       <!-- 
+        - #Session summary
+      -->
+
+      <section class="section service text-center" aria-label="service" id="summary">
+        <div class="container">
+
+
+          <h2 class="headline-1 section-title">Session Summary</h2>
+          <p>Take a look at the sessions' summary so far</p>
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/cv_image.jpeg" width="285" height="336" loading="lazy" alt="Bogoria spa hotel"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">CV Writing</a>
+                  </h3>
+                  <p class="label-1 card-text">I learnt that it is very important to be brief and concise, showing specific acheivements or experiences that are tailored to the application in a manner that is easy and understandable. Even with this, the most important part is qualifying and quantifying the achievemnts showing exactly how it made an impact. </p>
+                  <a href="#" class="btn-text hover-underline label-2">View More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/innovations.jpeg" width="285" height="336" loading="lazy" alt="Boma"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Innovations</a>
+                  </h3>
+                  <p class="label-1 card-text">Innovations do not have to be mind blowig or so out of this world.They can be the most basic of things, but the most important part is that they solve a problem. Some qualities of good a good innovation are relative advantage,compatibility, observability and trialability.</p>
+                  <a href="#" class="btn-text hover-underline label-2">View More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/learning.png" width="285" height="336" loading="lazy" alt="Diani"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">How to learn</a>
+                  </h3>
+                  <p class="label-1 card-text">Learning refers to permanent changes in behaviour, skills, knowledge or attitudes resulting from identifiable psychological or social experiences.Learning happens from sensory input, goes to sensory memory, leads to short term memory from attention and through encoding leads to long term memory.</p>
+                  <a href="#" class="btn-text hover-underline label-2">View More</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+       <!-- 
+        - #key takeaways
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="takeaways">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Endgame</p>
+
+          <h2 class="headline-1 section-title text-center">Key Takeaways</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/call.webp" width="100" height="100" loading="lazy" alt="image"
+                 >
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">CV Writing: Quantify and Qualify</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                   It is very important to add numbers and statistics to what you have done to show the impact of it.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/quote.webp" width="100" height="100" loading="lazy" alt="image">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Intro to Innovations</a>
+                    </h3>
+
+                  </div>
+
+                  <p class="card-text label-1">
+                   Most Important part is having the innovation be solution oriented.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/get.png" width="100" height="100" loading="lazy" alt="image"
+                    >
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Innovations in real life
+                        </a>
+                    </h3>
+
+                  
+                  </div>
+
+                  <p class="card-text label-1">
+                 As much as the product code matters, other aspects such as marketing, sales and management come into play.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/wolverine.webp" width="100" height="100" loading="lazy" alt="partnership"
+                 >
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">How to learn</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Learning is more like creating a pathway in a forest, the more you practice and enforce repetition, the clearer the path, the less you practice, the path dissapears. It's all about creating better connections in our brains.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+<hr/>
+
+  
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer section text-center"
+   >
+     
+    <div class="footer-menu">
+        <p>
+            <small>Copyright &copy; <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                &nbsp;&nbsp;|&nbsp;&nbsp; <strong> My Kamilimu Journey</strong></small>
+        </p>
+    </div>
+
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
